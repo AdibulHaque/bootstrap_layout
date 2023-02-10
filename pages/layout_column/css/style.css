@@ -1,0 +1,12 @@
+.box{
+	
+	height: 100px;
+	color: black;
+	background-color: lightcoral;
+	border:1px solid black;
+}
+.hm{
+	background: #dddd;
+	min-height: 300px;
+	border: 1px solid;
+}

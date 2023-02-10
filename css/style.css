@@ -1,0 +1,53 @@
+
+.navbar a img{
+  margin-bottom: 5px;
+  width: 75px;
+  
+
+}
+
+
+.navbar-expand-sm .navbar-nav a:hover{
+  color: green;
+}
+.bi-facebook:hover{
+  color: blue;
+  font-size: 25px;
+}
+.bi-instagram:hover{
+  color:#bc2a8d;
+  font-size: 25px;
+}
+.bi-linkedin:hover{
+  color:#0C63BC;
+  font-size: 25px;
+}
+.bi-twitter:hover{
+  color:#00acee;
+  font-size: 25px;
+}
+.bi-github:hover{
+  color:black;
+ 
+  font-size: 25px;
+}
+.bi-youtube:hover{
+  color: red;
+  font-size: 25px;
+
+}
+.dropdown-menu li{
+  float: left;
+}
+.bi{
+  font-size: 25px;
+}
+
+
+
+/*.bi:hover{
+  color: green;
+}
+*/
+
+

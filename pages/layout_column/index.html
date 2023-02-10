@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Layout_Columns</title>
+	<!-- css links -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/bootstrap-icons.css">
+</head>
+<body>
+		<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Layout_Columns</li>
+  </ol>
+</nav>
+	<div class="container text-center">
+		<h2>Vertical alignment 1</h2>
+		<div class="row hm align-items-start ">
+			<div class="col box">
+				col 1
+			</div>
+			<div class="col box ">
+				col 2
+			</div>
+			<div class="col box">
+				col 3
+			</div>
+
+			
+		</div>	
+		<div class="container text-center">
+		<h2>Vertical alignment 2</h2>
+		<div class="row hm align-items-center ">
+			<div class="col box">
+				col 1
+			</div>
+			<div class="col box ">
+				col 2
+			</div>
+			<div class="col box">
+				col 3
+			</div>
+
+			
+		</div>	
+		<div class="container text-center">
+		<h2>Vertical alignment 3</h2>
+		<div class="row hm align-items-end ">
+			<div class="col box">
+				col 1
+			</div>
+			<div class="col box ">
+				col 2
+			</div>
+			<div class="col box">
+				col 3
+			</div><div class="col box">
+				col 3
+			</div>
+
+			
+		</div>
+			
+		</div>
+		
+			
+		</div>
+	</div>
+	<div class="container text-center">
+		<h2>Vertical allignment 4</h2>
+		<div class="row hm justify-content-around">
+			<div class="col-4 box">
+				col 1				
+			</div>
+			<div class="col-4 box">
+				col 2				
+			</div>
+		</div>
+	</div>
+	<div class="container text-center">
+		<h2>Vertical allignment 5</h2>
+		<div class="row hm justify-content-between align-content-end">
+			<div class="col-4 box">
+				col 1				
+			</div>
+			<div class="col-4 box">
+				col 2				
+			</div>
+		</div>
+	</div>
+	<div class="container text-center">
+		<h2>Vertical allignment 6</h2>
+		<div class="row hm justify-content-evenly ">
+			<div class="col-4 box">
+				col 1				
+			</div>
+			<div class="col-4 box">
+				col 2				
+			</div>
+		</div>
+	</div>
+
+	
+	
+	<div class="container text-center">
+		<h2>Column breaks</h2>	
+  <div class="row hm">
+    <div class="col-6 col-sm-3 box">.col-6 .col-sm-3</div>
+    <div class="col-6 col-sm-3 box">.col-6 .col-sm-3</div>
+
+    <!-- Force next columns to break to new line -->
+    <div class="w-100"></div>
+
+    <div class="col-6 col-sm-3 box ">.col-6 .col-sm-3</div>
+    <div class="col-6 col-sm-3 box">.col-6 .col-sm-3</div>
+  </div>
+</div>
+<div class="container text-center">
+	<h2>Order classes 1</h2>
+  <div class="row">
+    <div class="col box ">
+      First in DOM, no order applied
+    </div>
+    <div class="col order-1 box">
+      Second in DOM, with a larger order
+    </div>
+    <div class="col order-3 box">
+      Third in DOM, with an order of 1
+    </div>
+  </div>
+</div>
+<div class="container text-center">
+	<h2>Order classes 2</h2>
+  <div class="row hm">
+    <div class="col order-last box">
+      First in DOM, ordered last
+    </div>
+    <div class="col box">
+      Second in DOM, unordered
+    </div>
+    <div class="col order-first box">
+      Third in DOM, ordered first
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
